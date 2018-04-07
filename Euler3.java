@@ -8,9 +8,7 @@ import java.util.regex.*;
 
 public class Euler3 {
    public static void main(String[] args){
-   		for(Long item: isFactor(600851475143L)){
-   			System.out.println(item);
-   		}
+   		System.out.println(isFactor(600851475143L));
    }
 
    public static List<Long> isFactor(long num){
